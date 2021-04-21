@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.cry.config.ShardingMasterSlaveConfig",
+      "name": "sharding.jdbc",
+      "type": "com.cry.config.ShardingMasterSlaveConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.cry.config.ShardingMasterSlaveConfig",
+      "name": "sharding.jdbc.data-sources",
+      "type": "java.util.Map<java.lang.String,com.zaxxer.hikari.HikariDataSource>"
+    },
+    {
+      "sourceType": "com.cry.config.ShardingMasterSlaveConfig",
+      "name": "sharding.jdbc.master-slave-rule",
+      "type": "io.shardingjdbc.core.api.config.MasterSlaveRuleConfiguration"
+    }
+  ]
+}
